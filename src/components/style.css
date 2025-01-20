@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#gameBox {
+  border: 2px solid white;
+  border-radius: 0.8rem;
+  height: 30vh;
+  width: 40vw;
+}
+
+#toeknSec {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tokenNumber {
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+#paraDetails {
+  font-size: 1.3rem;
+}
+
+#buttonsSec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+button {
+  height: 5vh;
+  width: 15vw;
+  font-size: medium;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 0.6rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.title h1 {
+  font-size: 3rem;
+}
+
+.title p {
+  font-size: 1.3rem;
+  text-align: center;
+  padding-top: 2rem;
+  color: burlywood;
+}
